@@ -1,0 +1,46 @@
+.about-more .title::after {
+  content: "About US ";
+}
+.home-img {
+  border-radius: 50%;
+}
+.home-img img {
+  position: relative;
+  width: 28vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px solid #b74b4b;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.founder-content .social-icons i{
+  color: #b74b4b;
+}
+.founder-content .text-1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.founder-content .text-2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #b74b4b;
+}
+.founder-content .text-3 {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 530px){
+    .home-img img{
+        width: 60vw;
+    }
+}
+@media (max-width: 991px){
+    .home-img img{
+        width: 40vw;
+    }
+}
+@media (max-width: 530px){
+    .home-img img{
+        width: 60vw;
+    }
+}
+
